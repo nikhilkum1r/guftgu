@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.text-elipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.error {
+  color: red;
+  font-size: 0.7rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: -0.2rem;
+  right: 0.4rem;
+  background: white;
+  padding: 0 0.2rem;
+}
+
+.noscrollbar::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar::-webkit-scrollbar {
+  height: 0.3rem;
+  width: 0.3rem;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #919191;
+  border-radius: 1rem;
+}
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #919191;
+}
+.scrollbar::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 10px;
+}
+.scrollbar::-webkit-scrollbar-track:hover,
+.scrollbar::-webkit-scrollbar-track:active {
+  background: none;
+}
+
+.modal {
+  width: 30vw;
+  max-height: 85vh;
+}
+/* .modal button:hover {
+  background: rgb(103, 78, 201);
+  color: #fff;
+} */
+
+.modalHeading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  color: #826cdd;
+  text-align: center;
+  filter: drop-shadow(5px 5px 5px rgba(183, 82, 230, 0.3));
+}
+
+@media only screen and (max-width: 1024px) {
+  .modal {
+    width: 55vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .modal {
+    width: 72vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .modal {
+    width: 96vw;
+  }
+}

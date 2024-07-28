@@ -1,0 +1,35 @@
+.modalContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  color: rgb(5, 5, 5) !important;
+}
+.btnCnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.ysBtn {
+  background: none;
+  border: 1px solid red;
+  color: #000;
+  padding: 0.4rem 1.5rem;
+  width: auto;
+}
+.noBtn {
+  background: none;
+  border: 1px solid rgb(13, 183, 30);
+  color: #000;
+  padding: 0.4rem 1.5rem;
+  width: auto;
+}
+
+.ysBtn:hover,
+.noBtn:hover {
+  background: none;
+  color: #000;
+}
